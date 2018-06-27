@@ -19,8 +19,5 @@ body {
 
 .wrapper img {
     max-width: 40px;
-}
-
-.closer img {
-    content: url("../img/domino/reverse_side.jpg");
+    margin: 0 2px;
 }
