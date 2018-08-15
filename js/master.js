@@ -86,8 +86,8 @@ function Game() {
                 firstDomino.domElement.style.visibility = secondDomino.domElement.style.visibility = 'hidden';
                 flipTop(pyramid, firstDomino.row, firstDomino.column);
                 flipTop(pyramid, secondDomino.row, secondDomino.column);
-                flipBottom(pyramid, firstDomino.row);
-                flipBottom(pyramid, secondDomino.row);
+                flipBottom(pyramid, firstDomino.row, firstDomino.column);
+                flipBottom(pyramid, secondDomino.row, secondDomino.column);
             }
 
             resetCurrentPair();
